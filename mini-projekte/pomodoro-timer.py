@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Copyright (c) 2025 Svetlana Sibiryakova
-# pomodoro.py
+# pomodoro-timer.py
 # Ein einfacher Pomodoro-Timer für produktives Arbeiten
 # Updated 2025-04-17
 
