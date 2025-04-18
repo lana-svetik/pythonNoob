@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Copyright (c) 2025 Svetlana Sibiryakova
-# hangman.py
-# Ein einfaches Hangman-Spiel in der Konsole
+# galgenmaennchen.py
+# Ein einfaches Galgenmännchen-Spiel in der Konsole
 # Updated 2025-04-18
 
 """
 Ein einfaches Hangman-Spiel in der Konsole.
 
-Dieses Programm implementiert das klassische Wort-Rate-Spiel Hangman,
+Dieses Programm implementiert das klassische Wort-Rate-Spiel Galgenmännchen,
 bei dem Spieler Buchstaben raten, um ein verstecktes Wort aufzudecken,
-bevor der Hangman vollständig gezeichnet ist.
+bevor das Galgenmännchen vollständig gezeichnet ist.
 """
 
 import random
@@ -23,7 +23,7 @@ from typing import List, Tuple, Set, Optional
 class Hangman:
     """Klasse zur Verwaltung eines Hangman-Spiels."""
     
-    # ASCII-Art für den Hangman (von 0 bis 6 Fehlversuchen)
+    # ASCII-Art für das Galgenmännchen (von 0 bis 6 Fehlversuchen)
     HANGMAN_ASCII = [
         """
          -----
@@ -363,8 +363,8 @@ def print_help() -> None:
     print("  exit/quit        - Spiel beenden")
     print("\nSpielregeln:")
     print("  - Rate Buchstaben, um das versteckte Wort aufzudecken")
-    print("  - Jeder falsche Versuch ergänzt den Hangman")
-    print("  - Das Spiel ist verloren, wenn der Hangman vollständig ist")
+    print("  - Jeder falsche Versuch ergänzt das Galgenmännchen")
+    print("  - Das Spiel ist verloren, wenn das Galgenmännchen vollständig ist")
     print("  - Das Spiel ist gewonnen, wenn das Wort vollständig erraten wurde")
 
 
@@ -375,7 +375,7 @@ def main() -> int:
     Returns:
         Exit-Code (0 für Erfolg, ungleich 0 für Fehler)
     """
-    print("=== HANGMAN ===")
+    print("=== GALGENMÄNNCHEN ===")
     print("'hilfe' für Hilfeübersicht, 'exit' zum Beenden")
     
     # Spiel initialisieren
