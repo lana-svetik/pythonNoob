@@ -25,6 +25,10 @@ Dieses Repository enthält verschiedene kleine Python-Projekte, die sich gut fü
 Jedes Projekt kann direkt mit Python ausgeführt werden:
 
 ```bash
+# Linux
+python projektname.py
+
+# macOS
 python3 projektname.py
 ```
 
