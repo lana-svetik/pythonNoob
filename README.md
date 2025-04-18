@@ -12,6 +12,14 @@ Dieses Repository enthält verschiedene kleine Python-Projekte, die sich gut fü
 
 2. **Passwortgenerator** (`passwortgenerator.py`) – Generiert sichere Passwörter mit dem Muster xxxxxx-xxxxxx-xxxxxx.
 
+3. **Pomodoro-Timer** (`pomodoro_timer.py`) – Ein einfacher Timer für die Pomodoro-Technik zur Produktivitätssteigerung.
+
+4. **Zahlen raten** (`zahlen_raten.py`) – Ein Ratespiel, bei dem der Computer eine Zahl wählt und der Spieler sie erraten muss. Mit jedem Versuch erhält der Spieler einen Hinweis.
+
+5. **Schere, Stein, Papier** (`schere_stein_papier.py`) – Das klassische Handspiel gegen den Computer mit Punktetracking und ASCII-Art-Visualisierung.
+
+6. **Galgenmännchen** (`galgenmaennchen.py`) – Ein Wort-Rate-Spiel, bei dem der Spieler Buchstaben raten muss, bevor das Galgenmännchen vollständig gezeichnet ist.
+
 ## Verwendung
 
 Jedes Projekt kann direkt mit Python ausgeführt werden:
