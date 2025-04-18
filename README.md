@@ -25,7 +25,7 @@ Dieses Repository enthält verschiedene kleine Python-Projekte, die sich gut fü
 Jedes Projekt kann direkt mit Python ausgeführt werden:
 
 ```bash
-python projektname.py
+python3 projektname.py
 ```
 
 ## Anforderungen
