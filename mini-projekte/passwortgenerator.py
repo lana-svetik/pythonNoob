@@ -103,7 +103,7 @@ def main() -> int:
         elif user_input in ['neu', 'pw', 'generate']:
             try:
                 password = generate_password()
-                print(f"\nGeneriertes Passwort: {password}")
+                print(f"Generiertes Passwort: {password}")
             except Exception as e:
                 print(f"Fehler bei der Passworterzeugung: {e}")
         else:
